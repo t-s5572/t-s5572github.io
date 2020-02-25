@@ -1,0 +1,7 @@
+#test {
+border:0;
+transition: all 0.3s ease 0s;
+}
+#test:hover {
+  opacity: 0.6;
+}

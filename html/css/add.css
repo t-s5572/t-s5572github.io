@@ -1,0 +1,30 @@
+.media-object {
+border-radius: 6px;
+opacity: 0.7;
+transition: all 0.3s ease 0s;
+}
+.media-object:hover {
+  opacity: 1;
+
+}
+video {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+}
+
+/*#DockerSamples{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #b0c4de;
+  opacity: 0.3;
+}*/
+.media-body p,
+.media-body h4,
+.footer p ,
+.text-muted {
+  color: #fff;
+  font-weight: 200;
+}
